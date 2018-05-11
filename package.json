@@ -1,0 +1,19 @@
+{
+  "name": "yamm",
+  "version": "0.0.1",
+  "description": "Yet Another Media Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathonball/yamm.git"
+  },
+  "author": "Jonathon Ball",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathonball/yamm/issues"
+  },
+  "homepage": "https://github.com/jonathonball/yamm#readme"
+}
