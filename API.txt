@@ -1,4 +1,4 @@
-# `canticle2` Components
+# Draft API
 
 ## StreamPlayer
 Provides methods to control an external media player process such as mplayer, mpv, or vlc.
