@@ -1,5 +1,5 @@
 # yamm
-**Y**et **A**nother **M**edia **M**odule
+Module for controlling an audio playback child process.
 
-YAMM is a wrapper for mplayer, vlc, and mpv.
+
 
