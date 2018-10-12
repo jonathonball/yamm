@@ -4,7 +4,8 @@
   "description": "Media process manager",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc mocha",
+    "jshint": "jshint -c .jshintrc --exclude-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,14 @@
   },
   "homepage": "https://github.com/jonathonball/yamm#readme",
   "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "jshint": "^2.9.6",
     "mocha": "^5.2.0",
     "nyc": "^13.0.1",
     "pre-commit": "^1.2.2"
-  }
+  },
+  "pre-commit": [
+    "jshint",
+    "test"
+  ]
 }
