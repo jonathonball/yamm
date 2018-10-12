@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/jonathonball/yamm#readme",
   "devDependencies": {
-    "jsdoc": "^3.5.5",
+    "jsdoc-to-markdown": "^4.0.1",
     "jshint": "^2.9.6",
     "mocha": "^5.2.0",
     "nyc": "^13.0.1",
