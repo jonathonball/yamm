@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/jonathonball/yamm#readme",
   "devDependencies": {
-    "terminal-kit": "^1.26.2"
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "pre-commit": "^1.2.2"
   }
 }
